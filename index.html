@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Store | Make your order today</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/materialdesignicons.css">
+</head>
+
+<body>
+
+    <div class="container h-100">
+        <div class="d-flex justify-content-center align-items-center h-100 w-100">
+            <div class="card bg-faded" style="width: 500px">
+                <div class="card-block pt-1">
+                    <div class="text-center text-info" style="font-size: 60px">
+                        <span class="mdi mdi-account-circle"></span>
+                    </div>
+
+                    <div class="text-muted row">
+                        <small class="alert alert-danger col-12">Scenarios book store! To order book, or read online, you need to be authenticated. Please sign in
+                            or sign up below to proceed.</small>
+                    </div>
+                    <div id="sign_in" class="animated fadeIn">
+                        <form name="signin_f" id="form_" action="content/includes/login.php">
+                            <div class="form-group">
+                                <label for="">Username</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="mdi mdi-account"></span>
+                                    </span>
+                                    <input type="text" autofocus="autofocus" name="username" id="username" class="form-control" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <span class="mdi mdi-passport"></span>
+                                    </span>
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-block btn-outline-info" type="submit">Sign in &nbsp;
+                                    <span class="mdi mdi-send-secure"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+</body>
+
+</html>

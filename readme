@@ -1,0 +1,6 @@
+Working features:
+ - Login and logout to the site,
+ - Different query and join operations.
+
+Not working:
+ - SSL because the project was developed from a local machine.

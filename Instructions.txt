@@ -1,0 +1,10 @@
+1. Save folder assign in htdocs ie (/opt/lampp/htdocs)
+2. Open the folder where you have the file (dmclient.sql, which was attached 
+together with the project files) and right click to open terminal and type the following command:
+	mysql -u root -p	
+(press enter and type your mysql server password where root in the above command is the my sql server username)
+ in the mysql prompt (mysql > ), type the following command to create the database in your mysql server
+        source dmclient.sql; 
+(don't forget the semicolon at the end) and press enter, after the process is done, close the terminal.
+
+Now open your browser and open localhost/assign to acccess the website
